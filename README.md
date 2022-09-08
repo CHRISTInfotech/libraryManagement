@@ -66,37 +66,51 @@ INSTALLATION
 ------------
 
 To install latest version of Python. \
-Visit [https://docs.python.org/3/using/windows.html] for further information.
+Visit https://docs.python.org/3/using/windows.html for further information.
 
 <br/> 
 
 CONFIGURATION
 -------------
 
-Create a new folder in desktop called LMS.
+1. Create a new folder in desktop called LMS.
 
-Open the Command prompt and the write 
-```cd ~Desktop/LMS
+2. Open the Command prompt and the write 
+```
+cd ~Desktop/LMS
 clone https://github.com/CHRISTInfotech/libraryManagement.git
 code .
 ```
-Installing Virtualenv
+
+3. Installing Virtualenv
+```
 pip install virtualenv
+```
 
-Creating Virtualenv
+4. Creating Virtualenv
+```
 virtualenv venv
+```
 
-Activating Environment
+5. Activating Environment
+```
 venv\Scripts\activate  (Windows OS)
+```
 
-Installing django
+6. Installing django
+```
 pip install django
+```
 
-Starting Django Project
+7. Starting Django Project
+```
 django-admin startproject libraryManagement .
+```
 
-Running Django Project
+8. Running Django Project
+```
 python manage.py runserver
+```
 
 <br/> 
 
