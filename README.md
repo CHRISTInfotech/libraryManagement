@@ -26,11 +26,11 @@ A library management system is application that is designed to manage all the fu
 FEATURES
 --------
 
-User can search books by category, author, book name and ISBN code.
-Issue and return status books.
-Librarian can add/update book details.
-Librarian can add/update/delete any user(students, faculties).
-Admin Dashboard.
+- User can search books by category, author, book name and ISBN code.
+- Issue and return status books.
+- Librarian can add/update book details.
+- Librarian can add/update/delete any user(students, faculties).
+- Admin Dashboard.
 
 <br/> 
 
